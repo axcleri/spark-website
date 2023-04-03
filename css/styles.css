@@ -10943,6 +10943,32 @@ section {
   height: 100%;
 }
 
+.device[data-device=iPhoneX][data-orientation=landscape][data-color=black] {
+  padding-bottom: 70.27700831%;
+}
+  
+.device[data-device=iPhoneX][data-orientation=landscape][data-color=black] .screen {
+  top: 7.162534435%;
+  left: 3.254847645%;
+  width: 93.49030471%;
+  height: 85.67493113%;
+}
+
+.device[data-device=iPhoneX][data-orientation=landscape][data-color=black]::after {
+  content: "";
+  background-image: url("../assets/img/landscape_black1.png");
+  width: 170%;
+  height: 120%;
+}
+
+.device[data-device=iPhoneX][data-orientation=landscape][data-color=black] .button {
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 170%;
+  height: 120%;
+}
+
 section.cta {
   position: relative;
   padding: 15rem 0;
